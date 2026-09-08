@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "yaps-meeting-transcription": {
+      "command": "npx",
+      "args": [
+        "--yes",
+        "--package",
+        "https://codeload.github.com/richawo/yaps-plugins/tar.gz/189945737dce216c3d8112e86aa4da37786275df",
+        "yaps-plugin-media"
+      ],
+      "env": {
+        "YAPS_PLUGIN_ID": "yaps-meeting-transcription",
+        "YAPS_PLUGIN_VERSION": "0.1.0",
+        "YAPS_PLUGIN_HOST": "cursor",
+        "YAPS_PLUGIN_TRANSPORT": "mcp",
+        "YAPS_TOOL_PROFILE": "meeting"
+      }
+    }
+  }
+}

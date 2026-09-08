@@ -1,0 +1,24 @@
+{
+  "name": "yaps-meeting-transcription",
+  "version": "0.1.0",
+  "description": "Turn recordings into speaker-labelled meeting notes, recaps, chapters, and grounded answers with the local Yaps engine.",
+  "author": {
+    "name": "Yaps AI",
+    "email": "support@yaps.ai"
+  },
+  "homepage": "https://yaps.ai",
+  "repository": "https://github.com/richawo/yaps-cursor-meeting-transcription",
+  "license": "MIT",
+  "keywords": [
+    "meeting-notes",
+    "meeting-transcription",
+    "diarization",
+    "interviews",
+    "yaps",
+    "local-first",
+    "mcp"
+  ],
+  "logo": "assets/yaps-icon.png",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
