@@ -1,6 +1,6 @@
 {
   "name": "yaps-meeting-transcription",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turn recordings into speaker-labelled meeting notes, recaps, chapters, and grounded answers with the local Yaps engine.",
   "author": {
     "name": "Yaps AI",
